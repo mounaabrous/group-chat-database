@@ -1,12 +1,4 @@
 # Entity Relationship Diagram
 
-Add an exported image of your original ERD here, preferably named `database_erd.png`.
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/R2bFTQRHeKdz61Uz7blFFM/MIlestone1_INFO330?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
-The diagram should show these relationships:
-
-- `users` to `channel_members`: one user can have many membership rows.
-- `channels` to `channel_members`: one channel can have many membership rows.
-- `users` to `chat_inbox`: one username can be associated with many messages.
-- `channels` to `chat_inbox`: one channel can contain many messages.
-
-The `channel_members` table represents the many-to-many relationship between users and channels.
